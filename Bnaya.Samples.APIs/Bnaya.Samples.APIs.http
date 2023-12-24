@@ -1,0 +1,6 @@
+@Bnaya.Samples.APIs_HostAddress = http://localhost:5047
+
+GET {{Bnaya.Samples.APIs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
