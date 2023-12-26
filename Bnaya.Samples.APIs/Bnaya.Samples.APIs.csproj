@@ -1,11 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <UserSecretsId>9cb44481-15e7-4b86-9542-5818b9668c24</UserSecretsId>
-  </PropertyGroup>
+	<PropertyGroup>
+		<UserSecretsId>9cb44481-15e7-4b86-9542-5818b9668c24</UserSecretsId>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+	</ItemGroup>
 
+	<ItemGroup>
+		<ProjectReference Include="..\Bnaya.Samples.Common\Bnaya.Samples.Common.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="StackExchange.Redis" Version="2.7.10" />
+	</ItemGroup>
 </Project>
